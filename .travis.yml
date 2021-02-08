@@ -13,7 +13,7 @@ script:
   - yarn docs:build
 
 branches:
-  except:
+  only:
     - develop
 
 deploy:
