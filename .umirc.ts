@@ -1,8 +1,9 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'hfins-ui',
+  title: '智享财务',
   outputPath: 'docs-dist',
+  logo: '/images/logo.svg',
   mode: 'site',
   alias: {
     '@common': 'hfins-ec-front-common/lib',
