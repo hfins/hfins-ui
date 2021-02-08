@@ -1,5 +1,7 @@
 # hfins-ui
 
+[![Build Status](https://www.travis-ci.org/twtyjvkg/hfins-ui.svg?branch=master)](https://www.travis-ci.org/twtyjvkg/hfins-ui)
+
 ## Getting Started
 
 Install dependencies,
