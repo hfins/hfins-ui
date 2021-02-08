@@ -11,7 +11,7 @@ install:
 
 script:
   - yarn docs:build
-配置
+
 deploy:
   provider: pages
   skip_cleanup: true
