@@ -15,6 +15,10 @@ export default defineConfig({
     {
       title: '组件',
       path: '/components',
+    },
+    {
+      title: 'GitHub',
+      path: 'https://github.com/twtyjvkg/hfins-ui',
     }
   ],
   menus: {
