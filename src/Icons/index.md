@@ -6,35 +6,7 @@ nav:
 
 ## 图标列表
 
-```tsx
-import React from 'react';
-import { Card } from 'choerodon-ui';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import Icons from '@common/components/Icons';
-import icons from '@common/assets/icons/iconfont.json';
-
-export default () => (
-  <Card>
-    {icons?.glyphs?.map(({ font_class }) => (
-      <Card.Grid
-        hoverable
-        style={{
-          width: '25%',
-          textAlign: 'center',
-          display: 'inline-block',
-          marginBottom: 15
-        }}
-        key={font_class}
-      >
-        <CopyToClipboard text={`<Icons type="${font_class}" />`}>
-          <div><Icons type={font_class} /></div>
-        </CopyToClipboard>
-        <div>{font_class}</div>
-      </Card.Grid>
-    ))}
-  </Card>
-)
-```
+<code src="./demo/IconList"></code>
 
 ## 如何使用
 
