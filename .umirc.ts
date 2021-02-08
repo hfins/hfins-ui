@@ -10,6 +10,24 @@ export default defineConfig({
     '@common': 'hfins-ec-front-common/lib',
   },
   base: '/hfins-ui',
-  publicPath: '/hfins-ui/'
+  publicPath: '/hfins-ui/',
+  navs: [
+    {
+      title: '组件',
+      path: '/components',
+    }
+  ],
+  menus: {
+    '/components': [
+      {
+        title: 'Icons-图标',
+        path: '/components/icons'
+      },
+      {
+        title: 'ModalLov-自定义lov',
+        path: '/components/modal-lov'
+      }
+    ]
+  }
   // more config: https://d.umijs.org/config
 });
