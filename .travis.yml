@@ -3,6 +3,10 @@ language: node_js
 node_js:
   - node
 
+cache:
+  npm: true
+  yarn: true
+
 before_install:
   - npm i -g yarn
 
