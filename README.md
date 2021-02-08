@@ -1,29 +1,22 @@
-# hfins-ui
+hfins-ui
+========
 
 [![Build Status](https://www.travis-ci.org/twtyjvkg/hfins-ui.svg?branch=master)](https://www.travis-ci.org/twtyjvkg/hfins-ui)
 
-## Getting Started
-
-Install dependencies,
-
+## 拉取代码
 ```bash
-$ npm i
+git fetch origin master:develop-xxx
+git checkout develop-xxx
 ```
 
-Start the dev server,
+## 安装依赖
 
 ```bash
-$ npm start
+$ yarn
 ```
 
-Build documentation,
+## 开发调试
 
 ```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+$ yarn start
 ```
