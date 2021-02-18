@@ -1,7 +1,7 @@
 hfins-ui
 ========
 
-![hfins UI](https://github.com/hfins/hfins-ui/workflows/hfins%20UI/badge.svg?branch=master)
+![github pages](https://github.com/hfins/hfins-ui/workflows/github%20pages/badge.svg?branch=master)
 
 ## 拉取代码
 ```bash
