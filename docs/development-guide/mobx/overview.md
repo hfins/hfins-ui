@@ -1,8 +1,8 @@
 ---
 title: mobx介绍-mobx要点
 nav:
-  title: mobx
-  path: /mobx
+  title: development-guide
+  path: /development-guide
 ---
 
 ## 1. 定义状态并使其可观察
