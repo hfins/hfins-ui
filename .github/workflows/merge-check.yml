@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: build
+      - name: Doc Build
         uses: actions/checkout@v2
       - run: yarn --http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
       - run: yarn run docs:build
