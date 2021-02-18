@@ -1,7 +1,7 @@
 ---
 hero:
-  title: hfins-ui
-  desc: hfins-ui
+  title: hfins UI
+  desc: 智享财务前端业务组件库
   actions:
     - text: 组件列表
       link: /components

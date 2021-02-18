@@ -17,21 +17,45 @@ export default defineConfig({
       path: '/components',
     },
     {
+      title: 'mobx的使用',
+      path: '/mobx',
+    },
+    {
       title: 'GitHub',
       path: 'https://github.com/twtyjvkg/hfins-ui',
-    }
+    },
   ],
   menus: {
     '/components': [
       {
         title: 'Icons-图标',
-        path: '/components/icons'
+        path: '/components/icons',
       },
       {
         title: 'ModalLov-自定义lov',
-        path: '/components/modal-lov'
-      }
-    ]
-  }
+        path: '/components/modal-lov',
+      },
+      {
+        title: 'QueryBarMoreUse-查询头',
+        path: '/components/query-bar-more',
+      },
+    ],
+    '/mobx': [
+      {
+        title: 'mobx介绍',
+        path: '/mobx',
+        children: [
+          {
+            title: 'mobx要点',
+            path: '/mobx/overview',
+          },
+          {
+            title: '概念与原则',
+            path: '/mobx/concepts',
+          },
+        ],
+      },
+    ],
+  },
   // more config: https://d.umijs.org/config
 });
