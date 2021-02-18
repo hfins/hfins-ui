@@ -22,7 +22,7 @@ export default defineConfig({
     },
     {
       title: 'GitHub',
-      path: 'https://github.com/twtyjvkg/hfins-ui',
+      path: 'https://github.com/hfins/hfins-ui',
     },
   ],
   menus: {
