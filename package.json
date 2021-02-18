@@ -32,6 +32,7 @@
     "choerodon-ui": "^1.0.0",
     "classnames": "^2.2.6",
     "hfins-ec-front-common": "^1.2.2-RELEASE",
+    "hzero-front": "^1.5.4",
     "mobx": "4.7.0",
     "mobx-react": "6.1.4",
     "react": "^16.12.0",
