@@ -29,12 +29,16 @@ export default defineConfig({
     '/components': [
       {
         title: 'Icons-图标',
-        path: '/components/icons'
+        path: '/components/icons',
       },
       {
         title: 'ModalLov-自定义lov',
-        path: '/components/modal-lov'
-      }
+        path: '/components/modal-lov',
+      },
+      {
+        title: 'QueryBarMoreUse-查询头',
+        path: '/components/query-bar-more',
+      },
     ],
     '/mobx': [
       {
@@ -43,15 +47,15 @@ export default defineConfig({
         children: [
           {
             title: 'mobx要点',
-            path: '/mobx/overview'
+            path: '/mobx/overview',
           },
           {
             title: '概念与原则',
-            path: '/mobx/concepts'
-          }
-        ]
-      }
-    ]
-  }
+            path: '/mobx/concepts',
+          },
+        ],
+      },
+    ],
+  },
   // more config: https://d.umijs.org/config
 });
