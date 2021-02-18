@@ -1,4 +1,5 @@
 ---
+title: hfins UI
 hero:
   title: hfins UI
   desc: 智享财务前端业务组件库
