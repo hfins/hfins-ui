@@ -1,7 +1,7 @@
 hfins-ui
 ========
 
-[![Build Status](https://www.travis-ci.org/twtyjvkg/hfins-ui.svg?branch=master)](https://www.travis-ci.org/twtyjvkg/hfins-ui)
+![hfins UI](https://github.com/hfins/hfins-ui/workflows/hfins%20UI/badge.svg?branch=master)
 
 ## 拉取代码
 ```bash
