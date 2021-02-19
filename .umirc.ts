@@ -21,6 +21,10 @@ export default defineConfig({
       path: '/basic-knowledge',
     },
     {
+      title: '通用utils',
+      path: '/utils',
+    },
+    {
       title: 'GitHub',
       path: 'https://github.com/hfins/hfins-ui',
     },
@@ -54,6 +58,12 @@ export default defineConfig({
             path: '/basic-knowledge/mobx/concepts',
           },
         ],
+      },
+    ],
+    '/utils': [
+      {
+        title: 'HecUtil',
+        path: '/utils/hec-util',
       },
     ],
   },

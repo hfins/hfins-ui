@@ -25,7 +25,7 @@ class Todo {
 
 ### Computed values(计算值)
 
-使用 MobX， 你可以定义在相关数据发生变化时自动更新的值。 通过@computed 装饰器或者利用 (extend)Observable 时调用 的getter / setter 函数来进行使用。(当然，这里也可以再次使用 decorate 来替代 @ 语法)。
+使用`MobX`， 你可以定义在相关数据发生变化时自动更新的值。 通过`@computed`装饰器或者利用`(extend)Observable`时调用 的getter / setter 函数来进行使用。(当然，这里也可以再次使用 decorate 来替代 @ 语法)。
 
 ```tsx | pure
 import { observable, computed } from 'mobx';
