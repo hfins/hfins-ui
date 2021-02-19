@@ -17,8 +17,8 @@ export default defineConfig({
       path: '/components',
     },
     {
-      title: '开发指引',
-      path: '/development-guide',
+      title: '前端开发基础',
+      path: '/basic-knowledge',
     },
     {
       title: 'GitHub',
@@ -40,18 +40,18 @@ export default defineConfig({
         path: '/components/query-bar-more',
       },
     ],
-    '/development-guide': [
+    '/basic-knowledge': [
       {
-        title: 'mobx介绍',
-        path: '/development-guide/mobx',
+        title: 'mobx',
+        path: '/basic-knowledge/mobx',
         children: [
           {
             title: 'mobx要点',
-            path: '/development-guide/mobx/overview',
+            path: '/basic-knowledge/mobx/overview',
           },
           {
             title: '概念与原则',
-            path: '/development-guide/mobx/concepts',
+            path: '/basic-knowledge/mobx/concepts',
           },
         ],
       },
