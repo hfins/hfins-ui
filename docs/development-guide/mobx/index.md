@@ -1,8 +1,8 @@
 ---
 title: mobx介绍
 nav:
-  title: development-guide
-  path: /development-guide
+  title: basic-knowledge
+  path: /basic-knowledge
 ---
 
 ## 核心概念
