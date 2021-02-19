@@ -23,13 +23,13 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - name: Set npm registry
-        uses: actions/setup-node@v1
-        with:
-          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+#      - name: Set npm registry
+#        uses: actions/setup-node@v1
+#        with:
+#          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
 
       - name: Install Dependencies
-        run: yarn
+        run: yarn --registry=http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
 
       - name: Doc Build
         run: yarn run docs:build
