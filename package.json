@@ -32,7 +32,9 @@
     "choerodon-ui": "^1.0.0",
     "classnames": "^2.2.6",
     "hfins-ec-front-common": "^1.2.2-RELEASE",
+    "hzero-boot": "^2.1.14",
     "hzero-front": "^1.5.4",
+    "hzero-ui": "^1.0.80",
     "mobx": "4.7.0",
     "mobx-react": "6.1.4",
     "react": "^16.12.0",
@@ -48,6 +50,7 @@
     "yorkie": "^2.0.0"
   },
   "resolutions": {
-    "@babel/parser": "7.12.0"
+    "@babel/parser": "7.12.0",
+    "jsencrypt": "3.0.0-rc.1"
   }
 }
