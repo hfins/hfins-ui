@@ -8,10 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set npm registry
-        uses: actions/setup-node@v1
-        with:
-          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+
       - name: Cache node modules
         uses: actions/cache@v2
         env:
@@ -23,8 +20,18 @@ jobs:
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
             ${{ runner.os }}-
-      - run: yarn
-      - run: yarn run docs:build
+
+      #      - name: Set npm registry
+      #        uses: actions/setup-node@v1
+      #        with:
+      #          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+
+      - name: Install Dependencies
+        run: yarn --registry=http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+
+      - name: Doc Build
+        run: yarn run docs:build
+
       - name: Doc Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
