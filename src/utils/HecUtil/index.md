@@ -232,6 +232,7 @@ const CalTaxAmountDemo: React.FC = () => {
         primitiveValue={false}
         value={taxCategory}
         onChange={({ value }) => { setTaxCategory(value) }}
+        label="税种"
       >
         <Select.Option value="TAX_INCLUSIVE_PRICE">金额含税</Select.Option>
         <Select.Option value="TAX_EXCLUSIVE_PRICE">金额不含税</Select.Option>
@@ -274,6 +275,7 @@ const CalWithOutTaxAmountDemo: React.FC = () => {
         primitiveValue={false}
         value={taxCategory}
         onChange={({ value }) => { setTaxCategory(value) }}
+        label="税种"
       >
         <Select.Option value="TAX_INCLUSIVE_PRICE">金额含税</Select.Option>
         <Select.Option value="TAX_EXCLUSIVE_PRICE">金额不含税</Select.Option>

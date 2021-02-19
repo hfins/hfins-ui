@@ -9,8 +9,28 @@ jobs:
   doc-build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+#      - name: Set npm registry
+#        uses: actions/setup-node@v1
+#        with:
+#          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+
+      - name: Install Dependencies
+        run: yarn --registry=http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+
       - name: Doc Build
-        uses: actions/checkout@v2
-      - run: yarn --http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
-      - run: yarn run docs:build
+        run: yarn run docs:build
 
