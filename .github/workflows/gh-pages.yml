@@ -14,8 +14,8 @@ jobs:
         env:
           cache-name: cache-node-modules
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          path: ~/.hfins/yarn
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-build-${{ env.cache-name }}-
             ${{ runner.os }}-build-
@@ -27,7 +27,7 @@ jobs:
       #          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
 
       - name: Install Dependencies
-        run: yarn --registry=http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+        run: yarn --registry=http://nexus.saas.hand-china.com/content/groups/hone-npm-group/ --cache-folder ~/.hfins/yarn
 
       - name: Doc Build
         run: yarn run docs:build
