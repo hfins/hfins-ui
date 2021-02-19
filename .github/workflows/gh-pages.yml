@@ -8,7 +8,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: yarn --http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+      - name: Set npm registry
+        uses: actions/setup-node@v1
+        with:
+          registry-url: http://nexus.saas.hand-china.com/content/groups/hone-npm-group/
+      - name: Cache node modules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - run: yarn
       - run: yarn run docs:build
       - name: Doc Deploy
         uses: peaceiris/actions-gh-pages@v3
