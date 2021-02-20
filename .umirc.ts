@@ -43,6 +43,10 @@ export default defineConfig({
         title: 'QueryBarMoreUse-查询头',
         path: '/components/query-bar-more',
       },
+      {
+        title: 'ModifyExchangeRateButton',
+        path: '/components/modify-exchange-rate-button',
+      },
     ],
     '/basic-knowledge': [
       {
