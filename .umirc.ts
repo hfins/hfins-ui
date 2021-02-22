@@ -36,6 +36,10 @@ export default defineConfig({
         path: '/components/icons',
       },
       {
+        title: 'Upload-附件上传',
+        path: '/components/upload',
+      },
+      {
         title: 'ModalLov-自定义lov',
         path: '/components/modal-lov',
       },
