@@ -1,16 +1,18 @@
 ---
+title: Query-bar-more
+order: 3
+toc: menu
 nav:
   title: Components
   path: /components
+  order: 2
 ---
-
-## QueryBarMore
-
-<code src="./demo/QueryBarMoreUse"></code>
 
 ## 组件描述
 
 该组件主要应用于查询页面作为查询头使用。
+
+<code src="./demo/QueryBarMoreUse"></code>
 
 ## API
 

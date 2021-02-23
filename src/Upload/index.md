@@ -1,10 +1,14 @@
 ---
+title: Upload
+order: 3
+toc: menu
 nav:
   title: Components
   path: /components
+  order: 2
 ---
 
-## 附件上传
+## 示例
 
 ```tsx | pure
 import React from 'react';
@@ -19,6 +23,8 @@ export default () => (
   </Upload>
 )
 ```
+
+## API
 
 属性 | 说明 | 类型 | 默认值
 -----|-----|-----|------

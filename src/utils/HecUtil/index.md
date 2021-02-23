@@ -1,8 +1,11 @@
 ---
-title: HecUtil
+title: Hec-util
+order: 1
+toc: menu
 nav:
   title: 通用utils
   path: /utils
+  order: 3
 ---
 
 ## 基础运算
