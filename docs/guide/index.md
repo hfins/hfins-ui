@@ -34,10 +34,10 @@ yarn global add hzero-cli eslint --registry=http://nexus.saas.hand-china.com/con
 
 执行`yarn global bin`查看yarn的bin目录，将其添加到`path`环境变量中。（<font color="red">如果提示hzero-cli命令找不到请执行该步骤</font>）
 
-![image.png](/images/docs/guide/QQ截图20210223171956.jpg)
+![image.png](/hfins-ui/images/docs/guide/QQ截图20210223171956.jpg)
 
 
-![image.png](/images/docs/guide/QQ截图20210223172046.jpg)
+![image.png](/hfins-ui/images/docs/guide/QQ截图20210223172046.jpg)
 
 #### git配置（在项目根目录下配置）
 
@@ -57,4 +57,4 @@ git config core.ignorecase false
 npx hzero-cli g sub-module xuzhao
 ```
 
-![image.png](/images/docs/guide/QQ截图20210223172410.jpg)
+![image.png](/hfins-ui/images/docs/guide/QQ截图20210223172410.jpg)
