@@ -3,8 +3,8 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   title: '智享财务',
   outputPath: 'docs-dist',
-  logo: '/images/logo.svg',
-  favicon: '/images/logo.svg',
+  logo: '/hfins-ui/images/logo.svg',
+  favicon: '/hfins-ui/images/logo.svg',
   mode: 'site',
   alias: {
     '@common': 'hfins-ec-front-common/lib',
@@ -14,9 +14,10 @@ export default defineConfig({
   navs: [
     null,
     {
-      title: 'GitHub',
-      path: 'https://github.com/hfins/hfins-ui',
+      title: '国内镜像',
+      path: 'https://hfins.gitee.io/hfins-ui',
     },
   ],
+  hash: true
   // more config: https://d.umijs.org/config
 });
