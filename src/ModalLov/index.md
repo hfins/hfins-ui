@@ -1,10 +1,13 @@
 ---
+title: Modal-lov
+toc: menu
 nav:
   title: Components
   path: /components
+  order: 2
 ---
 
-## ModalLov
+## 示例
 
 ```tsx
 import React from 'react';

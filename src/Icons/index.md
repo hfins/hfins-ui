@@ -1,7 +1,10 @@
 ---
+title: Icons
+toc: menu
 nav:
   title: Components
   path: /components
+  order: 2
 ---
 
 ## 图标列表
