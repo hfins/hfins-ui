@@ -1,12 +1,16 @@
 ---
+title: Modify-exchange-rate-button
+toc: menu
 nav:
   title: Components
   path: /components
+  order: 2
 ---
 
-## ModiFyExchangeRateButton-修改凭证汇率按钮
+## 组件描述
 
-### 使用案例
+修改凭证汇率按钮，现在主要应用于总账报账单审核，应付发票审核等功能。
+
 ```tsx | pure
  <ModifyExchangeRateButton
   color={ButtonColor.primary}
@@ -18,10 +22,6 @@ nav:
   }}
 />
 ```
-
-## 组件描述
-
-修改凭证汇率按钮，现在主要应用于总账报账单审核，应付发票审核等功能。
 
 ## API
 

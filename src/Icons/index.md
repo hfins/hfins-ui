@@ -1,6 +1,5 @@
 ---
 title: Icons
-order: 1
 toc: menu
 nav:
   title: Components

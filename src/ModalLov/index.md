@@ -1,6 +1,5 @@
 ---
 title: Modal-lov
-order: 2
 toc: menu
 nav:
   title: Components
