@@ -11,17 +11,28 @@
       type="image/x-icon"
       href="/hfins-ui/images/logo.svg"
     />
-    <link rel="stylesheet" href="/hfins-ui/umi.4da26c48.css" />
+    <link rel="stylesheet" href="/hfins-ui/umi.85b9ceb6.css" />
     <script>
       window.routerBase = "/hfins-ui";
     </script>
     <script>
-      //! umi version: 3.3.7
+      //! umi version: 3.3.9
+    </script>
+    <script>
+      !(function () {
+        var e = localStorage.getItem("dumi:prefers-color"),
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches,
+          r = ["light", "dark", "auto"];
+        document.documentElement.setAttribute(
+          "data-prefers-color",
+          e === r[2] ? (t ? r[1] : r[0]) : r.includes(e) ? e : r[0]
+        );
+      })();
     </script>
   </head>
   <body>
     <div id="root"></div>
 
-    <script src="/hfins-ui/umi.98eea5b0.js"></script>
+    <script src="/hfins-ui/umi.3adfe2d7.js"></script>
   </body>
 </html>
