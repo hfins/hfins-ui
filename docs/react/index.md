@@ -46,6 +46,3 @@ class Welcome extends Component<WelcomeProps> {
 }
 ```
 
-## State & 生命周期
-
-
