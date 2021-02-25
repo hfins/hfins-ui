@@ -13,11 +13,13 @@ export default defineConfig({
   publicPath: '/hfins-ui/',
   navs: [
     null,
+    { title: 'GitHub', path: 'https://github.com/hfins/hfins-ui' },
     {
       title: '国内镜像',
       path: 'https://hfins.gitee.io/hfins-ui',
     },
   ],
-  hash: true
+  hash: true,
+  locales: [['zh-CN', '中文']]
   // more config: https://d.umijs.org/config
 });

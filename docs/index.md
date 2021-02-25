@@ -9,3 +9,5 @@ hero:
 features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
+
+<embed src="./guide/反馈与共建.md"></embed>
