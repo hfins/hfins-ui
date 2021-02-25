@@ -1,7 +1,6 @@
 ---
-title: 介绍
+title: 快速上手
 order: 1
-toc: menu
 nav:
   title: 指南
   order: 1
@@ -12,18 +11,16 @@ nav:
 -----|-----|-----
 hfins-ec-front-common | 通用 | 包含通用组件、工具方法、页面元素等所有模块公用资源
 
-## 快速上手
+## 环境准备
 
-### 环境准备
-
-#### 1. 常用软件
+### 常用软件
 
 软件 | 用途 | 说明
 -----|-----|-----
 [git](https://git-scm.com/) | git操作 | 
 [nodejs](https://nodejs.org/en/) | js运行环境 | 
 
-#### 全局依赖安装
+### 全局依赖安装
 
 ```shell
 # 安装yarn
@@ -39,7 +36,7 @@ yarn global add hzero-cli eslint --registry=http://nexus.saas.hand-china.com/con
 
 ![image.png](/hfins-ui/images/docs/guide/QQ截图20210223172046.jpg)
 
-#### git配置（在项目根目录下配置）
+### git配置（在项目根目录下配置）
 
 ```shell
 # 设置用户名和密码
@@ -49,9 +46,9 @@ git config user.email "zhao.xu@hand-china.com"
 git config core.ignorecase false
 ```
 
-### 开发调试
+## 开发调试
 
-#### 新增子模块
+### 新增子模块
 
 ```shell
 npx hzero-cli g sub-module xuzhao
