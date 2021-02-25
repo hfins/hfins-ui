@@ -1,7 +1,9 @@
 ---
 title: mobx的使用
-order: 3
+order: 2
 toc: menu
+nav:
+  title: 前端开发基础
 ---
 
 ## 核心概念
@@ -124,7 +126,7 @@ setInterval(action(function tick() {
 
 如果你用`React`的话，可以把你的(无状态函数)组件变成响应式组件，方法是在组件上添加`observer`函数/ 装饰器. `observer`由`mobx-react`包提供的。
 
-<code src="./demo/TodoList"></code>
+<code src="./demo/mobx/TodoList"></code>
 
 ### Reactions(反应)
 
