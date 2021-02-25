@@ -4,6 +4,8 @@ hero:
   title: hfins UI
   desc: 智享财务前端业务组件库
   actions:
+    - text: 开发指南
+      link: /guide
     - text: 组件列表
       link: /components
 features:
