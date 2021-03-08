@@ -166,7 +166,7 @@ const CalAmountDemo: React.FC = () => {
   const [quantity, setQuantity] = useState<number>(0);
   const [precision, setPrecision] = useState<number>(2);
   return (
-    <Form columns={4}>
+    <Form columns={3}>
       <Currency value={price} onChange={value => { setPrice(value) }} label="单价" />
       <NumberField value={quantity} onChange={value => { setQuantity(value) }} label="数量" />
       <NumberField value={precision} onChange={value => { setPrecision(value) }} label="精度" />
@@ -196,7 +196,7 @@ const CalExchangeAmountDemo: React.FC = () => {
   const [rate, setRate] = useState<number>(0);
   const [precision, setPrecision] = useState<number>(2);
   return (
-    <Form columns={4}>
+    <Form columns={3}>
       <Currency value={amount} onChange={value => { setAmount(value) }} label="金额" />
       <NumberField value={rate} onChange={value => { setRate(value) }} label="汇率" />
       <NumberField value={precision} onChange={value => { setPrecision(value) }} label="精度" />
@@ -227,7 +227,7 @@ const CalTaxAmountDemo: React.FC = () => {
   const [taxCategory, setTaxCategory] = useState<'TAX_EXCLUSIVE_PRICE' | 'TAX_INCLUSIVE_PRICE'>('TAX_INCLUSIVE_PRICE');
   const [precision, setPrecision] = useState<number>(2);
   return (
-    <Form columns={5}>
+    <Form columns={3}>
       <Currency value={amount} onChange={value => { setAmount(value) }} label="金额" />
       <NumberField value={taxRate} onChange={value => { setTaxRate(value) }} label="税率" />
       <Select
@@ -270,7 +270,7 @@ const CalWithOutTaxAmountDemo: React.FC = () => {
   const [taxCategory, setTaxCategory] = useState<'TAX_EXCLUSIVE_PRICE' | 'TAX_INCLUSIVE_PRICE'>('TAX_INCLUSIVE_PRICE');
   const [precision, setPrecision] = useState<number>(2);
   return (
-    <Form columns={5}>
+    <Form columns={3}>
       <Currency value={withoutTaxAmount} onChange={value => { setWithoutTaxAmount(value) }} label="不含税金额" />
       <NumberField value={taxRate} onChange={value => { setTaxRate(value) }} label="税率" />
       <Select

@@ -35,7 +35,7 @@
     "axios": "^0.21.1",
     "choerodon-ui": "^1.0.0",
     "classnames": "^2.2.6",
-    "hfins-ec-front-common": "^1.2.2-RELEASE",
+    "hfins-ec-front-common": "^1.2.3-RELEASE",
     "hzero-boot": "^2.1.14",
     "hzero-front": "^1.5.4",
     "hzero-ui": "^1.0.80",
